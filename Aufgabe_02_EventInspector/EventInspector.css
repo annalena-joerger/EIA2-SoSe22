@@ -1,0 +1,28 @@
+#div0 {
+    left: 80px;
+    border: medium solid #98988c;
+    background-color: #98988c;
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 40px;
+    width: 500px;
+    height: 450px;
+}
+
+#div1 {
+    border: medium solid #98988c;
+    background-color: #98988c;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 500px;
+    height: 450px;
+}
+
+#span {
+    position: fixed;
+    background-color: yellow;
+    border: medium solid yellow;
+    text-align: center;
+    width: 200px;
+}
