@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Memory_Settings.css">
+    <script src="Memory_Settings.js"></script>
+    <title>Memory-Settings</title>
+</head>
+    
+    <body>
+        <a href="UI-Scribble+Use-Case-Diagramm.jpg" target="_blank">UI-Scribble + Use-Case-Diagramm</a>
+        <a href="Aktivitätsdiagramm_Startseite.jpg" target="_blank">Aktivitätsdiagramm Startseite</a>
+        <section id="memoryGame">
+            <h1>MEMORY GAME</h1>
+            <div id="userGameStart"></div>
+        </section>
+    
+        <form>
+        <fieldset class="playingfieldSettings">
+            <h2>CARDS</h2>
+            <input class="stepper" type="number" name="Stepper" step="1" min="5" max="25" value="5" />
+            <h2>CARD SIZE</h2>
+            100px <input class="slider" type="range" name="Slider" min="100" max="200" step="10" value="150"> 200px
+            <h2>COLOR</h2>
+            Background <input class="backgroundColor" type="color" name="ColorBackground" placeholder="pink" id="backgroundcolor" value="#c3c1c1">
+            Card <input class="cardColor" type="color" name="CColor" placeholder="pink" id="bCcolor" value="#437070">
+            Font <input class="fontColor" type="color" name="FColor" placeholder="pink" id="fColor" value="#cd9b9b">
+            <h2>FONT</h2>
+            <input type="radio" name="Radiogroup" value="Arial" id="radio1">
+            <label for="radio1">Arial</label>
+            <input type="radio" name="Radiogroup" value="monospace" id="radio2">
+            <label for="radio2">monospace</label>
+            <input type="radio" name="Radiogroup" value="Helvetica" id="radio3">
+            <label for="radio3">Helvetica</label>
+            <br>
+            <br>
+            <button type="button" class="start">START GAME</button>
+        </fieldset>
+        </form>
+    </body>
+    
+    </html>
