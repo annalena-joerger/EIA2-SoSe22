@@ -14,9 +14,6 @@ var L08_2;
         drawCloud(260, 100, "#f0eeea");
         drawCloud(700, 120, "#FFFFFF");
         drawCloud(1100, 60, "#f0eeea");
-        /*drawClouds({ x: 900, y: 125 }, { x: 250, y: 105 });
-        drawClouds({ x: 200, y: 225 }, { x: 250, y: 95 });
-        drawClouds({ x: 1100, y: 275 }, { x: 150, y: 75 });*/
         drawPerson();
         drawBirds();
         drawShip();
@@ -100,32 +97,6 @@ var L08_2;
             crc2.closePath();
             crc2.fill();
         }
-        /*function drawClouds(_position: Vector, _size: Vector): void {
-            let nparticels: number = 30;
-            let radiusParticle: number = 50;
-            let particle: Path2D = new Path2D();
-            let gradient: CanvasGradient = crc2.createRadialGradient(0, 0, 0, 0, 0, radiusParticle);
-
-            particle.arc(0, 0, radiusParticle, 0, 2 * Math.PI);
-            gradient.addColorStop(0, "HSLA(0, 100%, 100%, 0.5)");
-            gradient.addColorStop(1, "HSLA(0, 100%, 100%, 0)");
-
-            crc2.save();
-            crc2.translate(_position.x, _position.y);
-            crc2.fillStyle = gradient;
-
-            for (let drawn: number = 0; drawn < nparticels; drawn++) {
-                crc2.save();
-                let x: number = (Math.random() - 0.5) * _size.x;
-                let y: number = - (Math.random() * _size.y);
-                crc2.translate(x, y);
-                crc2.fill(particle);
-                crc2.restore();
-
-            }
-            crc2.restore();
-
-        }*/
         //Personen
         function drawPerson() {
             //Person1
